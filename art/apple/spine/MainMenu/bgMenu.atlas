@@ -1,0 +1,118 @@
+
+bgMenu.png
+size: 1775,1316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dear
+  rotate: false
+  xy: 307, 234
+  size: 104, 118
+  orig: 118, 118
+  offset: 14, 0
+  index: -1
+fog_02
+  rotate: false
+  xy: 544, 2
+  size: 527, 512
+  orig: 540, 960
+  offset: 7, 418
+  index: -1
+fog_03
+  rotate: true
+  xy: 1086, 5
+  size: 540, 687
+  orig: 540, 960
+  offset: 0, 0
+  index: -1
+forest_bg2
+  rotate: false
+  xy: 2, 354
+  size: 540, 960
+  orig: 540, 960
+  offset: 0, 0
+  index: -1
+logo_apple
+  rotate: false
+  xy: 135, 87
+  size: 78, 65
+  orig: 540, 960
+  offset: 250, 468
+  index: -1
+logo_apple2
+  rotate: false
+  xy: 307, 167
+  size: 78, 65
+  orig: 540, 960
+  offset: 250, 468
+  index: -1
+logo_text
+  rotate: false
+  xy: 2, 154
+  size: 303, 198
+  orig: 540, 960
+  offset: 135, 402
+  index: -1
+logo_vine1
+  rotate: false
+  xy: 2, 8
+  size: 100, 50
+  orig: 540, 960
+  offset: 224, 452
+  index: -1
+logo_vine2
+  rotate: false
+  xy: 2, 60
+  size: 131, 92
+  orig: 540, 960
+  offset: 133, 390
+  index: -1
+logo_vine3
+  rotate: false
+  xy: 1579, 1139
+  size: 84, 85
+  orig: 540, 960
+  offset: 180, 509
+  index: -1
+logo_vine4
+  rotate: false
+  xy: 1579, 1226
+  size: 145, 88
+  orig: 540, 960
+  offset: 277, 415
+  index: -1
+logo_vine5
+  rotate: true
+  xy: 1726, 1236
+  size: 78, 37
+  orig: 540, 960
+  offset: 234, 416
+  index: -1
+logo_vine6
+  rotate: false
+  xy: 413, 304
+  size: 66, 48
+  orig: 540, 960
+  offset: 275, 509
+  index: -1
+logo_vine7
+  rotate: true
+  xy: 481, 306
+  size: 46, 61
+  orig: 540, 960
+  offset: 327, 519
+  index: -1
+particles_01
+  rotate: false
+  xy: 1086, 547
+  size: 491, 767
+  orig: 491, 767
+  offset: 0, 0
+  index: -1
+particles_02
+  rotate: false
+  xy: 544, 516
+  size: 540, 798
+  orig: 540, 823
+  offset: 0, 1
+  index: -1

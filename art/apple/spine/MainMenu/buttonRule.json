@@ -1,0 +1,22 @@
+{
+"skeleton": { "hash": "D35VgQQWF2sD/wFfKtn6wABO/bk", "spine": "3.8.97", "images": "/Users/blazirko/Desktop/spineText/image", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "tearms", "bone": "root", "attachment": "tearms" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"tearms": {
+				"tearms": { "x": -0.3, "y": -0.58, "rotation": -0.27, "width": 44, "height": 44 }
+			}
+		}
+	}
+],
+"animations": {
+	"show": {}
+}
+}

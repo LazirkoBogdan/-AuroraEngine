@@ -1,0 +1,13 @@
+
+flag_Element.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rectangle_purple28
+  rotate: false
+  xy: 2, 42
+  size: 72, 32
+  orig: 72, 32
+  offset: 0, 0
+  index: -1

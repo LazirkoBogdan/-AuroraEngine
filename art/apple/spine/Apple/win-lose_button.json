@@ -1,0 +1,155 @@
+{
+"skeleton": {
+	"hash": "W1lXJ2cC53o9jDdOMbTosng/9ZY",
+	"spine": "3.8.97",
+	"x": -72.22,
+	"y": -86.18,
+	"width": 140.7,
+	"height": 49.35,
+	"images": "./images/",
+	"audio": "D:/!Design/[SPINE]/[OUTSOURCE] - 4 BetWinner Apple"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "win-lose_button (540x960)", "parent": "root", "scaleX": 0.375, "scaleY": 0.375 },
+	{ "name": "win-lose_button", "parent": "win-lose_button (540x960)", "x": -5, "y": -164, "color": "5572efff" },
+	{ "name": "btn_1", "parent": "win-lose_button", "color": "163bdeff" }
+],
+"slots": [
+	{ "name": "images/plashka 1", "bone": "win-lose_button", "attachment": "plashka 1" },
+	{ "name": "btn_1", "bone": "btn_1", "attachment": "btn_1" },
+	{ "name": "btn_text_1", "bone": "btn_1", "attachment": "btn_text_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/plashka 1": {
+				"plashka 1": { "scaleX": 0.7, "scaleY": 0.7, "width": 536, "height": 188 }
+			}
+		}
+	},
+	{
+		"name": "lose",
+		"attachments": {
+			"btn_1": {
+				"btn_1": {
+					"name": "green_button_1",
+					"x": 1,
+					"y": -1,
+					"scaleX": 0.7,
+					"scaleY": 0.7,
+					"width": 513,
+					"height": 164
+				}
+			},
+			"btn_text_1": {
+				"btn_text_1": { "name": "продолжить", "scaleX": 0.7, "scaleY": 0.7, "width": 334, "height": 51 }
+			}
+		}
+	},
+	{
+		"name": "win",
+		"attachments": {
+			"btn_1": {
+				"btn_1": {
+					"name": "blue_button_1",
+					"x": 1,
+					"y": -1,
+					"scaleX": 0.7,
+					"scaleY": 0.7,
+					"width": 513,
+					"height": 164
+				}
+			},
+			"btn_text_1": {
+				"btn_text_1": { "name": "забрать", "scaleX": 0.7, "scaleY": 0.7, "width": 208, "height": 51 }
+			}
+		}
+	}
+],
+"animations": {
+	"0": {},
+	"hide": {
+		"slots": {
+			"btn_1": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"btn_text_1": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"images/plashka 1": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"win-lose_button (540x960)": {
+				"scale": [
+					{},
+					{ "time": 0.3333, "y": 0.962 },
+					{ "time": 0.6667, "x": 1.077, "y": 1.115 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"loop": {},
+	"loop-push_button": {
+		"bones": {
+			"btn_1": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.98, "y": 0.97 },
+					{ "time": 0.3333, "x": 1.01, "y": 1.02 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"show": {
+		"slots": {
+			"btn_1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"btn_text_1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"images/plashka 1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"win-lose_button (540x960)": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.077, "y": 1.115 },
+					{ "time": 0.5, "x": 1.077, "y": 1.038, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "y": 0.962 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	}
+}
+}

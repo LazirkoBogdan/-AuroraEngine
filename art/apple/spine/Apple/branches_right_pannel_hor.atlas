@@ -1,0 +1,34 @@
+
+branches_right_pannel_hor.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+branch_01
+  rotate: false
+  xy: 60, 84
+  size: 104, 42
+  orig: 104, 42
+  offset: 0, 0
+  index: -1
+branch_02
+  rotate: true
+  xy: 60, 128
+  size: 36, 152
+  orig: 36, 152
+  offset: 0, 0
+  index: -1
+branch_03
+  rotate: false
+  xy: 2, 60
+  size: 56, 153
+  orig: 56, 153
+  offset: 0, 0
+  index: -1
+branch_04
+  rotate: false
+  xy: 60, 166
+  size: 153, 47
+  orig: 168, 47
+  offset: 15, 0
+  index: -1

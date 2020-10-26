@@ -1,0 +1,20 @@
+
+notification.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_popup 1
+  rotate: false
+  xy: 2, 2
+  size: 393, 275
+  orig: 394, 275
+  offset: 1, 0
+  index: -1
+branches_win_all
+  rotate: false
+  xy: 2, 279
+  size: 418, 294
+  orig: 418, 294
+  offset: 0, 0
+  index: -1

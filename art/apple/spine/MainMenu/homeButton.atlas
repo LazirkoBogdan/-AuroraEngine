@@ -1,0 +1,13 @@
+
+homeButton.png
+size: 120,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blabla
+  rotate: false
+  xy: 2, 2
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1

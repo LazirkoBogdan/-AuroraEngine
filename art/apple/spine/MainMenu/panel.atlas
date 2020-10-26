@@ -1,0 +1,13 @@
+
+panel.png
+size: 421,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+panel_3_hor
+  rotate: false
+  xy: 2, 2
+  size: 417, 93
+  orig: 429, 93
+  offset: 8, 0
+  index: -1

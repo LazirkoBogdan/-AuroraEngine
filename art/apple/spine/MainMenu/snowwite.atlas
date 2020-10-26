@@ -1,0 +1,48 @@
+
+snowwite.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 257
+  size: 334, 311
+  orig: 410, 410
+  offset: 50, 0
+  index: -1
+colar
+  rotate: true
+  xy: 2, 2
+  size: 253, 128
+  orig: 410, 410
+  offset: 88, 217
+  index: -1
+hair
+  rotate: false
+  xy: 132, 83
+  size: 167, 172
+  orig: 410, 410
+  offset: 129, 225
+  index: -1
+hand_l
+  rotate: true
+  xy: 301, 87
+  size: 168, 151
+  orig: 410, 410
+  offset: 171, 111
+  index: -1
+hand_r
+  rotate: false
+  xy: 315, 397
+  size: 116, 194
+  orig: 410, 410
+  offset: 86, 51
+  index: -1
+head
+  rotate: false
+  xy: 2, 593
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1

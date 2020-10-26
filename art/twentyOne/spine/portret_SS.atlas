@@ -1,0 +1,89 @@
+
+portret_SS.png
+size: 1504,1371
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Black_chip
+  rotate: true
+  xy: 1160, 486
+  size: 237, 91
+  orig: 960, 960
+  offset: 364, 378
+  index: -1
+Blue_chip_Top
+  rotate: false
+  xy: 1160, 1146
+  size: 217, 223
+  orig: 960, 960
+  offset: 372, 506
+  index: -1
+Shadow
+  rotate: true
+  xy: 1160, 725
+  size: 419, 103
+  orig: 960, 960
+  offset: 271, 293
+  index: -1
+green_chip
+  rotate: true
+  xy: 1160, 247
+  size: 237, 91
+  orig: 960, 960
+  offset: 374, 412
+  index: -1
+raise
+  rotate: false
+  xy: 2, 214
+  size: 1156, 1155
+  orig: 1201, 1200
+  offset: 23, 22
+  index: -1
+red_chip
+  rotate: true
+  xy: 1232, 8
+  size: 237, 91
+  orig: 960, 960
+  offset: 375, 311
+  index: -1
+shine
+  rotate: false
+  xy: 1160, 2
+  size: 70, 243
+  orig: 72, 245
+  offset: 1, 1
+  index: -1
+violet_chip
+  rotate: false
+  xy: 1253, 632
+  size: 237, 91
+  orig: 960, 960
+  offset: 352, 342
+  index: -1
+yellow_chip
+  rotate: false
+  xy: 1265, 1053
+  size: 237, 91
+  orig: 960, 960
+  offset: 354, 444
+  index: -1
+
+portret_SS2.png
+size: 1926,964
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 2
+  size: 960, 960
+  orig: 960, 960
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 964, 2
+  size: 960, 960
+  orig: 960, 960
+  offset: 0, 0
+  index: -1

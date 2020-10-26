@@ -1,0 +1,48 @@
+
+chipMove.png
+size: 1898,329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Black
+  rotate: false
+  xy: 2, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1
+Blue
+  rotate: false
+  xy: 318, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1
+Green
+  rotate: false
+  xy: 634, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1
+Lilov
+  rotate: false
+  xy: 950, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1
+Orange
+  rotate: false
+  xy: 1266, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1
+Red
+  rotate: false
+  xy: 1582, 2
+  size: 314, 325
+  orig: 318, 326
+  offset: 2, 0
+  index: -1

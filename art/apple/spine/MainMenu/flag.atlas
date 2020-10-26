@@ -1,0 +1,13 @@
+
+flag.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flag_currency_open_2
+  rotate: false
+  xy: 2, 428
+  size: 494, 68
+  orig: 494, 68
+  offset: 0, 0
+  index: -1

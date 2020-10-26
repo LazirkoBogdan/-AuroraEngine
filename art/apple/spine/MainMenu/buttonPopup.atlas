@@ -1,0 +1,27 @@
+
+buttonPopup.png
+size: 165,160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_button_1
+  rotate: false
+  xy: 2, 52
+  size: 152, 48
+  orig: 154, 49
+  offset: 0, 1
+  index: -1
+green_button_1
+  rotate: false
+  xy: 2, 2
+  size: 152, 48
+  orig: 154, 49
+  offset: 0, 1
+  index: -1
+plashka 1
+  rotate: false
+  xy: 2, 102
+  size: 161, 56
+  orig: 161, 56
+  offset: 0, 0
+  index: -1

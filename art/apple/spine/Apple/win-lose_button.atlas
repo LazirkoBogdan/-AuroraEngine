@@ -1,0 +1,41 @@
+
+win-lose_button.png
+size: 85,598
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_button_1
+  rotate: true
+  xy: 2, 197
+  size: 193, 61
+  orig: 195, 62
+  offset: 1, 0
+  index: -1
+green_button_1
+  rotate: true
+  xy: 2, 2
+  size: 193, 61
+  orig: 195, 62
+  offset: 1, 0
+  index: -1
+plashka 1
+  rotate: true
+  xy: 2, 392
+  size: 204, 71
+  orig: 204, 71
+  offset: 0, 0
+  index: -1
+забрать
+  rotate: true
+  xy: 65, 182
+  size: 79, 18
+  orig: 79, 19
+  offset: 0, 0
+  index: -1
+продолжить
+  rotate: true
+  xy: 65, 263
+  size: 127, 18
+  orig: 127, 19
+  offset: 0, 0
+  index: -1

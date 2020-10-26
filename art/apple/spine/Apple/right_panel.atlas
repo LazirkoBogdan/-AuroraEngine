@@ -1,0 +1,41 @@
+
+right_panel.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1px
+  rotate: false
+  xy: 2, 964
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+green_field
+  rotate: false
+  xy: 2, 799
+  size: 425, 87
+  orig: 425, 87
+  offset: 0, 0
+  index: -1
+green_step
+  rotate: false
+  xy: 5, 930
+  size: 109, 35
+  orig: 109, 35
+  offset: 0, 0
+  index: -1
+horizontal_panel
+  rotate: false
+  xy: 2, 888
+  size: 963, 40
+  orig: 976, 40
+  offset: 0, 0
+  index: -1
+vertical_panel
+  rotate: true
+  xy: 2, 684
+  size: 113, 873
+  orig: 113, 873
+  offset: 0, 0
+  index: -1

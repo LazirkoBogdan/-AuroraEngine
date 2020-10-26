@@ -1,0 +1,137 @@
+{
+"skeleton": {
+	"hash": "ezbwT4HM2VBVgs7vxBC95S8oMYY",
+	"spine": "3.8.97",
+	"x": -40.87,
+	"y": -40.5,
+	"width": 81,
+	"height": 81,
+	"images": "./images/",
+	"audio": "D:/!Design/[SPINE]/[OUTSOURCE] - 4 BetWinner Apple"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "square", "parent": "root", "scaleX": 0.375, "scaleY": 0.375, "color": "608fc1ff" },
+	{ "name": "question_signcube_1", "parent": "square" },
+	{ "name": "bubble_1", "parent": "square", "y": -10 }
+],
+"slots": [
+	{ "name": "square_blue", "bone": "square", "attachment": "square_blue" },
+	{ "name": "s-bubble", "bone": "bubble_1", "attachment": "s-bubble" },
+	{ "name": "s-question_signcube", "bone": "question_signcube_1", "attachment": "s-question_signcube" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"s-bubble": {
+				"s-bubble": { "width": 184, "height": 188 }
+			},
+			"s-question_signcube": {
+				"s-question_signcube": { "width": 32, "height": 68 }
+			},
+			"square_blue": {
+				"square_blue": { "x": -1, "width": 216, "height": 216 }
+			}
+		}
+	}
+],
+"animations": {
+	"0": {},
+	"hide": {
+		"slots": {
+			"s-bubble": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"s-question_signcube": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"square_blue": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"square": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.03, "y": 1.03 },
+					{ "time": 0.5, "x": 0.5, "y": 0.5 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"bones": {
+			"question_signcube_1": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.5, "angle": -5, "curve": 0, "c3": 0.75 },
+					{ "time": 1.5, "angle": 5, "curve": 0.25 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 1.3, "y": 1.2, "curve": "stepped" },
+					{ "time": 1, "x": 1.3, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bubble_1": {
+				"rotate": [
+					{ "time": 0.1667, "curve": 0, "c3": 0.75 },
+					{ "time": 0.6667, "angle": 2, "curve": 0, "c3": 0.75 },
+					{ "time": 1.5, "angle": -1, "curve": 0.25 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 1.1, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 1.05, "y": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "x": 1.1, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"show": {
+		"slots": {
+			"s-bubble": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"s-question_signcube": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"square_blue": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"square": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.03, "y": 1.03, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	}
+}
+}

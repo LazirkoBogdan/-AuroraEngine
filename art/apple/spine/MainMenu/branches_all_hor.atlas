@@ -1,0 +1,20 @@
+
+branches_all_hor.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+branches_all-horizontal3
+  rotate: false
+  xy: 2, 515
+  size: 1057, 595
+  orig: 1057, 595
+  offset: 0, 0
+  index: -1
+flower_1
+  rotate: true
+  xy: 1061, 1043
+  size: 67, 49
+  orig: 74, 49
+  offset: 1, 0
+  index: -1

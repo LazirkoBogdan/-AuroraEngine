@@ -1,0 +1,61 @@
+{
+"skeleton": {
+	"hash": "7WvoMooYj+AlUBRcetyDKQV8kLo",
+	"spine": "3.8.99",
+	"x": -21.75,
+	"y": -21.75,
+	"width": 43.5,
+	"height": 43.5,
+	"images": "./images/",
+	"audio": "D:/!Design/[SPINE]/[OUTSOURCE] - 4 BetWinner Apple/Source 3-2/Screen_03 - game"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "home-terms_btn", "parent": "root", "color": "ff7f00ff" }
+],
+"slots": [
+	{ "name": "home-terms_btn", "bone": "home-terms_btn", "attachment": "home-terms_btn" }
+],
+"skins": [
+	{
+		"name": "1.ver",
+		"attachments": {
+			"home-terms_btn": {
+				"home-terms_btn": { "name": "home1", "scaleX": 0.5, "scaleY": 0.5, "width": 87, "height": 87 }
+			}
+		}
+	},
+	{
+		"name": "2.hor",
+		"attachments": {
+			"home-terms_btn": {
+				"home-terms_btn": { "name": "terms1", "scaleX": 0.5, "scaleY": 0.5, "width": 87, "height": 87 }
+			}
+		}
+	}
+],
+"animations": {
+	"0": {},
+	"hide": {
+		"slots": {
+			"home-terms_btn": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"loop": {},
+	"show": {
+		"slots": {
+			"home-terms_btn": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

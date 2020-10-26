@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="viewport-fit=auto, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+    <script>
+        WebFont.load({ custom: { families: ["Roboto-Regular", "Roboto-Bold"] } });
+        listHeaders = [];
+
+
+        //for prev versions ios and android
+        function initializationGameParameter(key, value) {
+
+            const newDiv = document.createElement("div");
+            newDiv.setAttribute("id", key);
+            newDiv.innerText = value;
+            document.body.appendChild(newDiv);
+            this.listHeaders.push(key);
+            console.log(key, value);
+        }
+
+
+        function initializationGameParameters(headers) {
+            if (typeof headers === "string") {
+                headers = JSON.parse(headers);
+            }
+            for (let headersKey in headers) {
+                const value = headers[headersKey];
+                const newDiv = document.createElement("div");
+                newDiv.setAttribute("id", headersKey);
+                newDiv.innerText = value;
+                document.body.appendChild(newDiv);
+                this.listHeaders.push(headersKey);
+                console.log(headersKey, value);
+            }
+        }
+
+
+        function startFail() {
+
+        }
+
+
+        let ALERT_TITLE = "Oops!";
+        let ALERT_BUTTON_TEXT = "Ok";
+
+        if (document.getElementById) {
+            window.alert = function(txt) {
+                createCustomAlert(txt);
+            };
+        }
+
+        window.onerror = function(msg, url, line) {
+
+            alert(" An error occurred while retrieving data. Restart game");
+            alert("Message : " + msg + " An error occurred while retrieving data. Restart game");
+            alert("url : " + url + "  An error occurred while retrieving data. Restart game");
+            alert("Line number : " + line + " An error occurred while retrieving data. Restart game");
+        };
+
+
+        function createCustomAlert(txt) {
+            d = document;
+
+            if (d.getElementById("modalContainer")) return;
+
+            mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+            mObj.id = "modalContainer";
+            mObj.style.height = d.documentElement.scrollHeight + "px";
+
+            alertObj = mObj.appendChild(d.createElement("div"));
+            alertObj.id = "alertBox";
+            if (d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+            //alertObj.style.left      = (d.documentElement.scrollWidth - alertObj.offsetWidth) / 2 + 'px';
+            alertObj.style.visiblity = "visible";
+
+            h1 = alertObj.appendChild(d.createElement("h1"));
+            h1.appendChild(d.createTextNode(ALERT_TITLE));
+
+            msg = alertObj.appendChild(d.createElement("p"));
+            //msg.appendChild(d.createTextNode(txt));
+            msg.innerHTML = txt;
+
+            btn = alertObj.appendChild(d.createElement("a"));
+            btn.id = "closeBtn";
+            btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+            btn.href = "#";
+            btn.focus();
+            btn.onclick = function() {
+
+                window.location.href = "webview://close";
+                return false;
+            };
+
+            alertObj.style.display = "block";
+
+        }
+
+
+        window.addEventListener("notch-detected", function(e) {
+            core.isAndroidNotch = true;
+        });
+
+
+        function removeCustomAlert() {
+            document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+        }
+
+
+        function ful() {
+            alert("Alert this pages");
+        }
+
+
+        function startGame() {
+        }
+
+    </script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="\assets\main.css">
+    <link rel="stylesheet" href="\assets\pikaday.css">
+    <link rel="stylesheet" href="\assets\theme.css">
+</head>
+<body>
+<div id="fps-meter"></div>
+<canvas id="app-canvas"></canvas>
+<div id="keyboard"></div>
+<div id="iconBG"></div>
+<div id="logo" class="shadow"><img class="logo" src="assets\l"/></div>
+<div id="logoOrientation" class="shadow"><img class="logoOrientation" src="assets\rotationIcon.png"/></div>
+<div id="loading" class="sk-circle">
+    <div class="sk-circle1 sk-child"></div>
+    <div class="sk-circle2 sk-child"></div>
+    <div class="sk-circle3 sk-child"></div>
+    <div class="sk-circle4 sk-child"></div>
+    <div class="sk-circle5 sk-child"></div>
+    <div class="sk-circle6 sk-child"></div>
+    <div class="sk-circle7 sk-child"></div>
+    <div class="sk-circle8 sk-child"></div>
+    <div class="sk-circle9 sk-child"></div>
+    <div class="sk-circle10 sk-child"></div>
+    <div class="sk-circle11 sk-child"></div>
+    <div class="sk-circle12 sk-child"></div>
+</div>
+</body>
+</html>

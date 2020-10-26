@@ -1,0 +1,20 @@
+
+branches_all_ver.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+branches_all
+  rotate: false
+  xy: 2, 105
+  size: 563, 511
+  orig: 582, 531
+  offset: 7, 13
+  index: -1
+flower_1
+  rotate: true
+  xy: 567, 549
+  size: 67, 49
+  orig: 74, 49
+  offset: 1, 0
+  index: -1

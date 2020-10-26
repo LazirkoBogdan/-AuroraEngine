@@ -1,0 +1,34 @@
+{
+"skeleton": {
+	"hash": "qdIYFA2hVtVjL7hV4uRJ47pO/tQ",
+	"spine": "3.8.97",
+	"x": -58.23,
+	"y": -58.23,
+	"width": 116.46,
+	"height": 116.46,
+	"images": "./Desktop/spineText/image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "slot", "bone": "bone", "attachment": "blabla" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"slot": {
+				"blabla": { "rotation": 0.23, "width": 116, "height": 116 }
+			}
+		}
+	}
+],
+"animations": {
+	"hide": {},
+	"loop": {},
+	"show": {}
+}
+}

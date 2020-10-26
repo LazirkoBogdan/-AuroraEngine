@@ -1,0 +1,31 @@
+{
+"skeleton": {
+	"hash": "Occ/zL0FaHXpm08wgd/J62GOC8g",
+	"spine": "3.8.97",
+	"x": -214,
+	"y": -46,
+	"width": 429,
+	"height": 93,
+	"images": "/Users/blazirko/Desktop/spineText/image",
+	"audio": ""
+},
+"bones": [
+	{ "name": "panel" }
+],
+"slots": [
+	{ "name": "panel", "bone": "panel", "attachment": "panel_3_hor" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"panel": {
+				"panel_3_hor": { "x": 0.5, "y": 0.5, "width": 429, "height": 93 }
+			}
+		}
+	}
+],
+"animations": {
+	"show": {}
+}
+}

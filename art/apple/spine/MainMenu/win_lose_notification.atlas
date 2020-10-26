@@ -1,0 +1,55 @@
+
+win_lose_notification.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+apple_cry
+  rotate: true
+  xy: 930, 936
+  size: 85, 91
+  orig: 106, 106
+  offset: 12, 9
+  index: -1
+bg_popup 1
+  rotate: false
+  xy: 422, 746
+  size: 393, 275
+  orig: 394, 275
+  offset: 1, 0
+  index: -1
+branches_win_all
+  rotate: false
+  xy: 2, 727
+  size: 418, 294
+  orig: 418, 294
+  offset: 0, 0
+  index: -1
+ellipse_glow1
+  rotate: false
+  xy: 817, 700
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+gift 1
+  rotate: true
+  xy: 930, 878
+  size: 56, 60
+  orig: 60, 60
+  offset: 2, 0
+  index: -1
+glow1
+  rotate: false
+  xy: 817, 800
+  size: 110, 110
+  orig: 113, 113
+  offset: 1, 2
+  index: -1
+glow2
+  rotate: false
+  xy: 817, 912
+  size: 111, 109
+  orig: 113, 113
+  offset: 1, 3
+  index: -1

@@ -1,0 +1,85 @@
+{"frames": {
+
+"bg_bust_animation":
+{
+	"frame": {"x":987,"y":1853,"w":984,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":984,"h":96},
+	"sourceSize": {"w":984,"h":96}
+},
+"bg_draw_animation":
+{
+	"frame": {"x":987,"y":1951,"w":984,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":984,"h":96},
+	"sourceSize": {"w":984,"h":96}
+},
+"BTN_Disabled_Brown":
+{
+	"frame": {"x":1083,"y":1608,"w":516,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":516,"h":169},
+	"sourceSize": {"w":524,"h":172}
+},
+"btn_popup":
+{
+	"frame": {"x":1601,"y":1608,"w":416,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":416,"h":200},
+	"sourceSize": {"w":416,"h":200}
+},
+"dialog_bg":
+{
+	"frame": {"x":1083,"y":949,"w":812,"h":657},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":812,"h":657},
+	"sourceSize": {"w":816,"h":660}
+},
+"dialog_shine":
+{
+	"frame": {"x":1083,"y":1,"w":946,"h":946},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":27,"w":946,"h":946},
+	"sourceSize": {"w":1000,"h":1000}
+},
+"landscape_input_sum_place":
+{
+	"frame": {"x":1083,"y":1779,"w":408,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":408,"h":64},
+	"sourceSize": {"w":408,"h":64}
+},
+"portret_results_BG":
+{
+	"frame": {"x":1,"y":1853,"w":984,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":984,"h":144},
+	"sourceSize": {"w":984,"h":144}
+},
+"soft_light_portret_bg":
+{
+	"frame": {"x":1,"y":1,"w":1080,"h":1850},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":35,"w":1080,"h":1850},
+	"sourceSize": {"w":1080,"h":1920}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas-1.png",
+	"format": "RGBA8888",
+	"size": {"w":2030,"h":2048},
+	"scale": "1",
+	"related_multi_packs": [ "atlas-0.json", "atlas-2.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:8405d32ce44bbf18e14f34f7c1ebda14:c21aac11ed09d1dbfdc51a0b4baf0473:93499a6cad9a8304a69495c21cde34aa$"
+}
+}

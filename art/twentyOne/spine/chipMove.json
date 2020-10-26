@@ -1,0 +1,178 @@
+{
+  "skeleton": {
+    "hash": "StaA41dUqtNKIvxZ8SdPIgY+Qc8",
+    "spine": "3.8.95",
+    "x": -73.83,
+    "y": -79.63,
+    "width": 147.89,
+    "height": 149.83,
+    "images": "./images/",
+    "audio": "/Users/oleksandradevezenko/Desktop"
+  },
+  "bones": [
+    { "name": "root" },
+    {
+      "name": "chip",
+      "parent": "root",
+      "x": 2.6,
+      "y": -7.62,
+      "color": "86eb0dff"
+    }
+  ],
+  "slots": [{ "name": "chip", "bone": "chip", "attachment": "chip" }],
+  "skins": [
+    {
+      "name": "Black",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Black",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    },
+    {
+      "name": "Blue",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Blue",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    },
+    {
+      "name": "Green",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Green",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    },
+    {
+      "name": "Lilov",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Lilov",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    },
+    {
+      "name": "Orange",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Orange",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    },
+    {
+      "name": "red",
+      "attachments": {
+        "chip": {
+          "chip": {
+            "name": "Red",
+            "x": -2.48,
+            "y": 2.9,
+            "scaleX": 0.465,
+            "scaleY": 0.4596,
+            "width": 318,
+            "height": 326
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "0": {
+      "bones": {
+        "chip": {
+          "translate": [{ "x": -1.25, "y": 3.89 }],
+          "scale": [{ "x": 0.574, "y": 0.574 }]
+        }
+      }
+    },
+    "hide": {
+      "slots": { "chip": { "color": [{ "color": "ffffff00" }] } },
+      "bones": {
+        "chip": {
+          "translate": [{ "x": -1.25, "y": 3.89 }],
+          "scale": [{ "x": 0.574, "y": 0.574 }]
+        }
+      }
+    },
+    "loop": {
+      "bones": {
+        "chip": {
+          "translate": [{ "x": -1.25, "y": 3.89 }],
+          "scale": [
+            { "x": 0.574, "y": 0.574, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 0.574,
+              "y": 0.574,
+              "curve": 0.444,
+              "c3": 0.551
+            },
+            { "time": 1.3333, "x": 0.99, "y": 0.99 },
+            { "time": 1.9667, "x": 0.574, "y": 0.574, "curve": "stepped" },
+            { "time": 2.6667, "x": 0.574, "y": 0.574 }
+          ]
+        }
+      }
+    },
+    "show": {
+      "bones": {
+        "chip": {
+          "translate": [{ "x": -1.25, "y": 3.89 }],
+          "scale": [
+            { "x": 0.574, "y": 0.574, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 0.574,
+              "y": 0.574,
+              "curve": 0.444,
+              "c3": 0.551
+            },
+            { "time": 1.3333, "x": 0.99, "y": 0.99 }
+          ]
+        }
+      }
+    }
+  }
+}

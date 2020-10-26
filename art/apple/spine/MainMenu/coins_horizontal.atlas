@@ -1,0 +1,13 @@
+
+coins_horizontal.png
+size: 823,49
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coins_hor_1
+  rotate: false
+  xy: 2, 2
+  size: 819, 45
+  orig: 820, 45
+  offset: 0, 0
+  index: -1

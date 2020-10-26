@@ -1,0 +1,62 @@
+
+chipLoader.png
+size: 1159,290
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shadow_Top
+  rotate: false
+  xy: 574, 218
+  size: 462, 70
+  orig: 476, 81
+  offset: 7, 6
+  index: -1
+chip
+  rotate: false
+  xy: 2, 4
+  size: 284, 284
+  orig: 305, 302
+  offset: 9, 9
+  index: -1
+chip-shine
+  rotate: false
+  xy: 288, 4
+  size: 284, 284
+  orig: 305, 302
+  offset: 9, 9
+  index: -1
+chip-side-color
+  rotate: true
+  xy: 574, 38
+  size: 34, 338
+  orig: 34, 340
+  offset: 0, 1
+  index: -1
+chip-side-color-round
+  rotate: true
+  xy: 574, 74
+  size: 142, 280
+  orig: 144, 282
+  offset: 1, 1
+  index: -1
+chip-side-round
+  rotate: true
+  xy: 856, 74
+  size: 142, 280
+  orig: 144, 282
+  offset: 1, 1
+  index: -1
+chip-side-straight
+  rotate: true
+  xy: 574, 2
+  size: 34, 338
+  orig: 34, 340
+  offset: 0, 1
+  index: -1
+shine
+  rotate: true
+  xy: 914, 2
+  size: 70, 243
+  orig: 72, 245
+  offset: 1, 1
+  index: -1

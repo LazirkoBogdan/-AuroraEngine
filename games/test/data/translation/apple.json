@@ -1,0 +1,54 @@
+{
+  "bet": "Bet",
+  "enterBet": "Enter your stake",
+  "result": "Result",
+  "howPlay": "How to play",
+  "buttonText": {
+    "yes": "YES",
+    "ok": "OK",
+    "no": "NO",
+    "min": "Min",
+    "max": "Max",
+    "stand": "Take winnings",
+    "hit": "HIT",
+    "close": "CLOSE",
+    "clearBet": "Clear bet",
+    "deal": "Bet"
+  },
+  "popupBack": {
+    "title": "Back to home page",
+    "description": "Are you sure you want \nto quit this game?"
+  },
+  "popupConnection": {
+    "title": "No internet connection",
+    "description": "Do you want to try to reconnect?"
+  },
+  "popupDataError": {
+    "title": "Data Error",
+    "description": "Restart game"
+  },
+  "popupNoMoney": {
+    "title": "Not enough funds in account",
+    "description": "Please top up your account \nto continue"
+  },
+  "popupLimits": {
+    "title": "Invalid bet",
+    "description": {
+      "min": "Minimum bet is",
+      "max": "Maximum bet is"
+    }
+  },
+  "popupGameOver": {
+    "title": "WIN",
+    "description": "You win"
+  },
+  "popupGameOverLose": {
+    "title": "Lose",
+    "description": "Try again!"
+  },
+  "ruleMenu": {
+    "title": "How to play?",
+    "name": "Rules",
+    "rules": "Try your luck — taste one of Snow White's apples! Place a bet.\n\nThe initial stake is determined before the start of a game.The maximum stake is $, the minimum stake is - #  \n\nThere are 10 rows of 5 cells in front of you.Each cell contains an apple. Apples can be bad (apple core) or good (whole) Now try to guess where good apples are hidden!Open one cell at each of the 10 levels. \n\nIf you open a cell with a whole apple, your winnings increase and you can proceed to the next level  \n\nIf you open a cell with an apple core - you lose and the game is over. You can stop and take your winnings at any level.\n\nIf you experience any problems,  please contact us within  3 days of finishing the game!"
+  }
+}

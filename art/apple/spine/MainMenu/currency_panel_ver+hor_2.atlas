@@ -1,0 +1,125 @@
+
+currency_panel_ver+hor_2.png
+size: 2016,265
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_1-1
+  rotate: false
+  xy: 1396, 74
+  size: 85, 33
+  orig: 101, 38
+  offset: 10, 4
+  index: -1
+btn_2-1
+  rotate: false
+  xy: 954, 13
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_2-2
+  rotate: false
+  xy: 1067, 13
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_2-3
+  rotate: false
+  xy: 1283, 63
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_2-4
+  rotate: false
+  xy: 1283, 17
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_2-5
+  rotate: false
+  xy: 1442, 25
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_2-6
+  rotate: false
+  xy: 1555, 25
+  size: 111, 44
+  orig: 113, 45
+  offset: 0, 1
+  index: -1
+btn_3-1
+  rotate: true
+  xy: 1396, 27
+  size: 45, 44
+  orig: 54, 54
+  offset: 5, 4
+  index: -1
+btn_4-1
+  rotate: false
+  xy: 954, 59
+  size: 227, 48
+  orig: 227, 48
+  offset: 0, 0
+  index: -1
+panel_1
+  rotate: false
+  xy: 1485, 166
+  size: 529, 97
+  orig: 540, 101
+  offset: 7, 0
+  index: -1
+panel_1_hor
+  rotate: false
+  xy: 533, 206
+  size: 950, 57
+  orig: 950, 58
+  offset: 0, 1
+  index: -1
+panel_2
+  rotate: false
+  xy: 2, 87
+  size: 529, 176
+  orig: 540, 176
+  offset: 7, 0
+  index: -1
+panel_2_hor
+  rotate: false
+  xy: 2, 2
+  size: 950, 83
+  orig: 950, 83
+  offset: 0, 0
+  index: -1
+panel_3
+  rotate: false
+  xy: 1485, 71
+  size: 529, 93
+  orig: 540, 93
+  offset: 7, 0
+  index: -1
+panel_3_hor
+  rotate: false
+  xy: 533, 111
+  size: 417, 93
+  orig: 540, 93
+  offset: 119, 0
+  index: -1
+panel_4
+  rotate: false
+  xy: 954, 109
+  size: 529, 95
+  orig: 540, 132
+  offset: 7, 1
+  index: -1
+placeolder
+  rotate: false
+  xy: 1183, 9
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1

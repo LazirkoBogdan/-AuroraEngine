@@ -1,0 +1,31 @@
+{
+  "name": "Always Be Progressive",
+  "short_name": "Progressive!",
+  "display": "fullscreen",
+  "background_color": "#102a48",
+  "icons": [
+    {
+      "src": "assets/icon-128.png",
+      "sizes": "128x128"
+    }
+  ],
+  "index.js": "bundle.e1016a5957a9df1bcdba.js",
+  "assets/atlases/atlas-0 2.json": "assets/atlases/atlas-0 2.json",
+  "assets/atlases/atlas-0 2.png": "assets/atlases/atlas-0 2.png",
+  "assets/atlases/atlas-0.json": "assets/atlases/atlas-0.json",
+  "assets/atlases/atlas-0.png": "assets/atlases/atlas-0.png",
+  "assets/atlases/atlas-1.json": "assets/atlases/atlas-1.json",
+  "assets/atlases/atlas-1.png": "assets/atlases/atlas-1.png",
+  "assets/datepicker.min.css": "assets/datepicker.min.css",
+  "assets/font/Roboto-Bold.ttf": "assets/font/Roboto-Bold.ttf",
+  "assets/font/Roboto-Regular.ttf": "assets/font/Roboto-Regular.ttf",
+  "assets/icon-128.png": "assets/icon-128.png",
+  "assets/logo.png": "assets/logo.png",
+  "assets/logo.svg": "assets/logo.svg",
+  "assets/main.css": "assets/main.css",
+  "assets/pikaday.css": "assets/pikaday.css",
+  "assets/rotationIcon.png": "assets/rotationIcon.png",
+  "assets/spinner-duotone.svg": "assets/spinner-duotone.svg",
+  "assets/theme.css": "assets/theme.css",
+  "index.html": "index.html"
+}

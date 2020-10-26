@@ -1,0 +1,11 @@
+import "./Preloader";
+import "./Background";
+import "./BackgroundTop";
+import "./Base";
+import "./UI";
+import "./UIBotton";
+import "./HistoryMenu";
+import "./RulesMenu";
+import "./SettingMenu";
+import "./Popup";
+import "./Loading";

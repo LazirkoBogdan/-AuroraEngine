@@ -1,0 +1,13 @@
+
+coins.png
+size: 382,103
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coins_all
+  rotate: false
+  xy: 2, 2
+  size: 378, 99
+  orig: 531, 222
+  offset: 120, 39
+  index: -1

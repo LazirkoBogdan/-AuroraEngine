@@ -1,0 +1,41 @@
+
+bgAll.png
+size: 1817,1504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fog_01
+  rotate: false
+  xy: 847, 804
+  size: 540, 695
+  orig: 540, 960
+  offset: 0, 0
+  index: -1
+fog_02
+  rotate: true
+  xy: 1085, 1
+  size: 741, 731
+  orig: 750, 1333
+  offset: 5, 566
+  index: -1
+forest_bg
+  rotate: false
+  xy: 1, 1
+  size: 540, 960
+  orig: 540, 960
+  offset: 0, 0
+  index: -1
+particles_01
+  rotate: true
+  xy: 1, 963
+  size: 540, 844
+  orig: 540, 844
+  offset: 0, 0
+  index: -1
+particles_02
+  rotate: false
+  xy: 543, 1
+  size: 540, 801
+  orig: 540, 823
+  offset: 0, 0
+  index: -1

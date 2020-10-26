@@ -1,0 +1,88 @@
+{
+"skeleton": {
+	"hash": "6XmLp1A3DXoJOP5et7hryMmzzyM",
+	"spine": "3.8.97",
+	"x": -272.47,
+	"y": -483.71,
+	"width": 540,
+	"height": 960,
+	"images": "./images/",
+	"audio": "D:/!Design/[SPINE]/[OUTSOURCE] - 4 BetWinner Apple/Source 2 - resize 2/Screen_02 - currency_snowwite/./../.."
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "color": "8a3a8bff" }
+],
+"slots": [
+	{ "name": "!main_mask", "bone": "root", "attachment": "!main_mask" },
+	{ "name": "forest_bg", "bone": "bg", "attachment": "forest_bg" }
+],
+"skins": [
+	{
+		"name": "1.vertical",
+		"attachments": {
+			"!main_mask": {
+				"!main_mask": {
+					"type": "clipping",
+					"end": "!main_mask",
+					"vertexCount": 4,
+					"vertices": [ 267.53, -483.71, -272.47, -483.71, -272.47, 476.29, 267.53, 476.29 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"forest_bg": {
+				"forest_bg": { "x": -2.47, "y": -3.71, "width": 540, "height": 960 }
+			}
+		}
+	},
+	{
+		"name": "2.horizontal",
+		"attachments": {
+			"!main_mask": {
+				"!main_mask": {
+					"type": "clipping",
+					"end": "!main_mask",
+					"vertexCount": 4,
+					"vertices": [ 481, -270, -480, -270, -480, 271, 481, 271 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"forest_bg": {
+				"forest_bg": { "x": -4.45, "y": -71.68, "scaleX": 1.8, "scaleY": 1.8, "width": 540, "height": 960 }
+			}
+		}
+	}
+],
+"animations": {
+	"0": {
+		"slots": {
+			"forest_bg": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"hide": {
+		"slots": {
+			"forest_bg": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"loop": {},
+	"show": {
+		"slots": {
+			"forest_bg": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

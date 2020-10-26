@@ -1,0 +1,20 @@
+
+home-terms_btn2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+home1
+  rotate: false
+  xy: 2, 91
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+terms1
+  rotate: false
+  xy: 2, 2
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
